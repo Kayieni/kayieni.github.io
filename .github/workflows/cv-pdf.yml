@@ -40,7 +40,6 @@ jobs:
 
       - name: Set up Jekyll
         run: |
-          gem install jekyll bundler
           bundle install || true
 
       - name: Build Jekyll site
