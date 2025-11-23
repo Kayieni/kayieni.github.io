@@ -1,0 +1,27 @@
+# Ignore SASS/SCSS cache and build artifacts
+*.scssc
+*.css.map
+.sass-cache/
+
+# Ignore Jekyll and site build output
+_site/
+.jekyll-cache/
+
+# Ignore Ruby and Bundler files
+.bundle/
+Gemfile.lock
+vendor/
+
+# Ignore OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Ignore PDF and generated files (optional, if you don't want to track them)
+EmmanouelaVagianou.pdf
+cv.pdf
+cv.md
+
+# Ignore log files
+*.log
