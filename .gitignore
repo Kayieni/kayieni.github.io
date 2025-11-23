@@ -19,8 +19,9 @@ Thumbs.db
 *.swo
 
 # Ignore PDF and generated files (optional, if you don't want to track them)
-# EmmanouelaVagianou.pdf
-# cv.pdf
+EmmanouelaVagianou.pdf
+cv.pdf
+cv.md
 
 # Ignore log files
 *.log

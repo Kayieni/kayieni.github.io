@@ -61,8 +61,7 @@ jobs:
 
       - name: Generate PDF from deployed site (wkhtmltopdf)
         run: |
-          wkhtmltopdf http://kayieni.github.io/index.html EmmanouelaVagianou.pdf
-
+          wkhtmltopdf --enable-local-file-access http://kayieni.github.io/index.html EmmanouelaVagianou.pdf
       - name: Generate simple A4 PDF (pandoc)
         run: |
           pandoc cv.md -o cv.pdf --pdf-engine=wkhtmltopdf -V geometry:a4paper
